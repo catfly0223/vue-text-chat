@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'iy-text-chat'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ed3d4b22fe614b989ea662c7f44c1701 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f618f1c2b7dc4a788afe625f82639481 }}
         package: .
