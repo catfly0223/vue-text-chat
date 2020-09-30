@@ -7,11 +7,6 @@ var port_client = 9080;
 var port_server = 9090;
 
 // 静的ホスティング
-// app
-//   .use(express.static("..public"))
-//   .use(serveIndex("../public", { icons: true }))
-//   .listen(process.env.PORT || port_client);
-
 app
   .use(express.static(__dirname + "/dist"))
   .listen(process.env.PORT || port_client);
