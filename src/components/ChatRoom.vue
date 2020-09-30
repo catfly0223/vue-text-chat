@@ -46,7 +46,7 @@ export default {
   },
   data() {
     return {
-      socket: io("localhost:9090"),
+      socket: io(),
       players: [],
       text: "",
       messages: [],
