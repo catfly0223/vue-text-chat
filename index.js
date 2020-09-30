@@ -17,7 +17,7 @@ app
   .listen(process.env.PORT || port_client);
 
 // WebSocket
-const server = app.listen(port_server, function() {
+const server = app.listen(process.env.PORT || port_server, function() {
   console.log("server running on port 9090");
 });
 const io = socket(server);
